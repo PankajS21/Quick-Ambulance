@@ -1,43 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Applic from './Components/Applic';
-import Awards from './Components/Awards';
-import Facts from './Components/Facts';
-import Features from './Components/Features';
-import Integration from './Components/Integration';
-import Knowtodo from './Components/Knowtodo';
-import Last from './Components/Last';
-import Meet from './Components/Meet';
-import Navbar from './Components/Navbar';
-import Testimonial from './Components/Testimonial';
-import Whyus from './Components/Whyus';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route
+// } from "react-router-dom";
+// import Features from './Components/Features';
+// import Partners from './Components/Partners';
+// import Testimonial from './Components/Testimonial';
+// import Integration from './Components/Integration';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/* <App /> */}
-    <div>
-      <header>
-    <Navbar/><br/><br/>
-    </header>
-    <Meet/><br/><br/><br/><br/>
-    <Whyus/><br/><br/>
-    <Features/><br/><br/><br/><hr/>
-    <Facts/><hr/>
-    <Knowtodo/><hr></hr><br/><br/><br/>
-    <Integration/><br/><br/><br/><hr/>
-    <Awards/><br/><br/>
-    <Testimonial/><br/><br/><br/>
-    {/* <Applic/><br/> */}
-    <footer>
-    <Last/>
-    </footer>
-    </div>
-  </React.StrictMode>
+    <React.StrictMode>
+      {/* <Router> */}
+    <App />
+    {/* <Switch>
+          <Route exact path="/founder">
+            <Testimonial />
+          </Route>
+          <Route exact path="/partners">
+            <Partners />
+          </Route>
+          <Route exact path="/features">
+            <Features />
+          </Route>
+          <Route exact path="/integration">
+            <Integration />
+          </Route>
+        </Switch>
+        </Router> */}
+     </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

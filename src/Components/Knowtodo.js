@@ -3,7 +3,7 @@ import React from 'react'
 export default function Knowtodo() {
   return (
     <div style={{margin:"0%"}}>
-      <div classNameName='container-fluid' style={{color:"rgb(41, 128, 185)", textAlign:"center"}}><h1 style={{fontSize:"5rem"}}><b>Know What To Do</b></h1>
+      <div className='container-fluid' style={{color:"rgba(45,118,212,255)", textAlign:"center"}}><h1 style={{fontSize:"5rem"}}><b>Know What To Do</b></h1>
       <br></br>
       <h4 style={{color:"black"}}>Few aspects of better preparation to ease stress for user and faster turn around time, applicable
 for home, office or other out-of-hospital locations</h4></div>

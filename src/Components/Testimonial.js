@@ -5,21 +5,21 @@ import Fade from 'react-reveal/Fade';
 export default function Testimonial() {
   return (
   <div style={{margin:"0%"}}>
-  <div style={{backgroundColor:"rgb(41, 128, 185)"}}>
+  <div style={{backgroundColor:"rgba(45,118,212,255)"}}>
   <div className='container-fluid' style={{ display:"flex" ,alignItems:"center", justifyContent:"center",}}>
   <h2 style={{fontSize:"5rem", color:"white"}}>Founder</h2>
   </div>
   <br/><br/><br/>
-    <div class="container">
-  <div class="row">
+    <div className="container">
+  <div className="row">
     
-    <div class="col" style={{ display:"flex" ,alignItems:"center", justifyContent:"center"}}>
+    <div className="col" style={{ display:"flex" ,alignItems:"center", justifyContent:"center"}}>
     <Fade bottom>
-    <img src={require("./ssn.png")} alt="error"></img><hr/>
+    <img src={require("./acp.png")} alt="error"></img><hr/>
     </Fade>
     </div>
     
-    <div class="col">
+    <div className="col">
      
       <h3 style={{color:"white"}}><b>Education</b></h3>
       <h4 style={{color:"white"}}>- The Shri Ram School, Aravali</h4>

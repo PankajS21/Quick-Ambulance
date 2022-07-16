@@ -4,7 +4,7 @@ export default function Features() {
   return (
     <div style={{margin:"0%"}}>
         <div className='container-fluid' style={{textAlign:"center"}}>
-        <h1 style={{color:"rgb(41, 128, 185)", fontSize:"5rem"}}><b>Features</b></h1>
+        <h1 style={{color:"rgba(45,118,212,255)", fontSize:"5rem"}}><b>Features</b></h1>
         </div>
         <div className="container-fluid">
   <div className="row" style={{display:'flex',textAlign:"center",padding:'1rem'}}>

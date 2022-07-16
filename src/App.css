@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.main {
+  background-color: rgba(45,118,212,255);
+  z-index: 10;
+}
+.hero{
+  height: 5rem;
+  top: 26px;
+  left: 47rem;
+}
+
+.link {
+  text-decoration: none;
+  display: inline;
+  padding: 10px 10px;
+  /* font-weight: 700; */
+  font-size: large;
+  cursor: pointer;
+  color: white;
+  position: relative;
+}
