@@ -22,7 +22,7 @@ export default function Facts() {
   
     </div>
     <div className="col-12">
-    &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <img src={require("./jimg2.webp")} alt="error" style={{width:"34rem",height:"18rem"}}></img>
+    &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; <img src={require("./jimg2.png")} alt="error" style={{width:"34rem",height:"18rem"}}></img>
 
     </div>
   </div>
